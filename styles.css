@@ -1,0 +1,183 @@
+html,body{
+    margin: 0px;
+
+    
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.section-1{
+   
+    background-color: #1f2937;
+    margin-top: 0;
+}
+.navbar{
+   
+    margin: auto;
+    color: #f9faf8;
+    padding: 20% auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    
+    
+   
+}
+
+.section-1{
+    padding: 2%;
+}
+
+.navbar a{
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 1.1rem;
+    flex-grow: 1;
+}
+.logo{
+    
+    color: #f9faf8;
+    flex-grow: 10;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    
+}
+
+.container{
+   
+    color: white;
+    margin: 50px auto 100px auto;
+    width: 60%;
+    display:flex;
+   flex-wrap: nowrap;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.sec-1-img img{
+    width: 500px;
+    height: 250px;
+    
+}
+
+.sec-1-txt h1{
+    font-size: 48px;
+    width: 70%;
+}
+
+.sec-1-txt p{
+    width: 50%;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sec-1-txt button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: none;
+    font-size: 18px;
+    padding: 1.5%;
+    border-radius: 7px;
+    width: 20%;
+}
+
+.pic-container{
+    display:flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 3% auto;
+    margin-bottom: 5%;
+}
+.pic{
+    border: 4px solid rgb(85, 85, 255);
+    border-radius: 15px;
+    height: 200px;
+    width: 200px;
+}
+
+.section-2 h1{
+    text-align: center;
+    color:#1f2937;
+    font-size: 36px;
+    font-weight: 900;
+
+}
+
+.section-3{
+    background-color:#e5e7eb;
+    padding: 5%;
+}
+
+
+.quote{
+    color:#1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.said-by{
+    text-align: right;
+    width: 60%;
+    margin:auto;
+    font-weight: 900;
+    font-size: 1.2rem;
+    
+    
+}
+
+
+.call-action{
+    padding: 2%;
+    width: 60%;
+    margin: 100px auto;
+    background-color: #3882f6;
+    border-radius: 11px;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 2px 4px rgb(214, 209, 209);
+}
+
+
+.call-action .call-action-head{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.call-action .call-action-desc{
+    font-size: 1.5rem;
+}
+
+ .call-action button{
+    color: white;
+    font-size: 1.3rem;
+    width: 17%;
+    padding:12px;
+    background-color: transparent;
+    border: 2px solid white ;
+    border-radius: 8px;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    font-size: 1.3rem;
+    background: #1f2937;
+    width: 100%;
+  
+    color: white;
+    
+}
