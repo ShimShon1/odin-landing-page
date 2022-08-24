@@ -1,6 +1,6 @@
 html,body{
     margin: 0px;
-
+    
     
     height: 100%;
     width: 100%;
@@ -9,8 +9,8 @@ html,body{
 }
 
 .section-1{
-   
-    background-color: #1f2937;
+    padding: 2%;
+    background-image: linear-gradient(black 0%,rgb(7, 7, 7) 90%,black);
     margin-top: 0;
 }
 .navbar{
@@ -27,9 +27,6 @@ html,body{
    
 }
 
-.section-1{
-    padding: 2%;
-}
 
 .navbar a{
     color: #e5e7eb;
@@ -61,6 +58,8 @@ html,body{
 .sec-1-img img{
     width: 500px;
     height: 250px;
+    border :2px solid black;
+    box-shadow: 2px 2px 2px 2px black;
     
 }
 
@@ -76,7 +75,7 @@ html,body{
 }
 
 .sec-1-txt button{
-    background-color: #3882f6;
+    background-color: #43526b;
     color: #e5e7eb;
     border: none;
     font-size: 18px;
@@ -91,39 +90,48 @@ html,body{
     width: 50%;
     margin: 3% auto;
     margin-bottom: 5%;
+    gap: 20px;
 }
 .pic{
-    border: 4px solid rgb(85, 85, 255);
+    border: 4px solid #fafafa;
+    box-shadow: 2px 2px 2px 2px #262731;
     border-radius: 15px;
     height: 200px;
     width: 200px;
+    
 }
 
 .section-2 h1{
     text-align: center;
-    color:#1f2937;
+    color:#ffffff;
     font-size: 36px;
     font-weight: 900;
+    
 
 }
 
+.section-2{
+    background-image: linear-gradient(black 0%,rgb(255, 81, 0) 80%,black);
+    padding: 5%;
+}
 .section-3{
-    background-color:#e5e7eb;
+    background-image: linear-gradient(black 0%,rgb(7, 7, 7) 90%,black);
     padding: 5%;
 }
 
 
 .quote{
-    color:#1f2937;
+    color:#f8fafc;
     font-size: 36px;
     font-style: italic;
-    font-weight: 200;
+    font-weight: 400;
     text-align: center;
     width: 50%;
     margin: auto;
 }
 
 .said-by{
+    color:#f8fafc;
     text-align: right;
     width: 60%;
     margin:auto;
@@ -133,12 +141,18 @@ html,body{
     
 }
 
+.section-4{
+    background-image: linear-gradient(black 0%,rgb(255, 81, 0) 80%,black);
+    padding: 2%;
+    overflow: hidden;
+
+}
 
 .call-action{
     padding: 2%;
     width: 60%;
     margin: 100px auto;
-    background-color: #3882f6;
+    background-color: #2d3035;
     border-radius: 11px;
     color: white;
     text-align: left;
@@ -175,9 +189,10 @@ footer{
     justify-content: center;
     height: 8vh;
     font-size: 1.3rem;
-    background: #1f2937;
+    background-image: linear-gradient(black 0%,rgb(7, 7, 7) 90%,black);
     width: 100%;
   
     color: white;
     
 }
+
